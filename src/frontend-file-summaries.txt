@@ -1,0 +1,9 @@
+{
+  "frontend/src/App.tsx": "Main application component with Internet Identity authentication, lottery-themed header with gradient branding, welcome screen for unauthenticated users, and two-column layout displaying ticket purchase and user tickets sections for authenticated users.",
+  "frontend/src/hooks/useQueries.ts": "React Query hooks for backend integration including useGetAllTicketsByUser for fetching user tickets and useBuyTicket mutation for purchasing tickets with automatic cache invalidation.",
+  "frontend/src/components/TicketPurchase.tsx": "Ticket purchase component with lottery ticket illustration, user ID input field, buy button with loading states, and success/error toast notifications.",
+  "frontend/src/components/MyTickets.tsx": "Component displaying user's purchased lottery tickets with search functionality by user ID, scrollable ticket list, and empty state handling.",
+  "frontend/src/components/TicketCard.tsx": "Reusable ticket card component with lottery-themed styling, displaying ticket ID and owner information with decorative perforated border design.",
+  "frontend/src/index.css": "Global styles with OKLCH color system defining lottery-specific color tokens (gold, green, prize) for both light and dark modes, plus animation delay utilities.",
+  "frontend/tailwind.config.js": "Tailwind configuration extended with lottery-specific color tokens (lottery-gold, lottery-green, lottery-prize) and Inter font family."
+}

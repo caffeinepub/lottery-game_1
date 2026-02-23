@@ -1,0 +1,87 @@
+{
+  "schemaVersion": "1.0.0",
+  "projectStateVersion": 3,
+  "summary": "Web-based lottery game application on Internet Computer with React frontend and Motoko backend where users can purchase tickets, participate in drawings, and see results",
+  "architectural_notes": [
+    "Built on Internet Computer platform",
+    "React frontend for user interface",
+    "Motoko backend for business logic",
+    "Web-based application"
+  ],
+  "known_issues": [],
+  "isFixRequest": false,
+  "imageRequirements": "## Required Images\n- Colorful lottery ticket illustration with number grid and lottery branding (lottery-ticket.dim_400x250.png)\n- Golden trophy or prize icon for winners display (winner-trophy.dim_128x128.png)\n- Background pattern with subtle lottery ball motifs for main interface (lottery-bg.dim_1920x1080.png)",
+  "existing_features": [
+    {
+      "id": "feature-create-ticket-purchase-functionality-allowing-users-to-buy-lottery-tickets-with-unique-identifiers",
+      "title": "Create ticket purchase functionality allowing users to buy lottery tickets with unique identifiers",
+      "reqIds": [
+        "REQ-2"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-build-lottery-drawing-mechanism-to-randomly-select-winners-from-purchased-tickets",
+      "title": "Build lottery drawing mechanism to randomly select winners from purchased tickets",
+      "reqIds": [
+        "REQ-3"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-create-results-viewing-interface-displaying-lottery-outcomes-winning-tickets-and-drawing-history",
+      "title": "Create results viewing interface displaying lottery outcomes, winning tickets, and drawing history",
+      "reqIds": [
+        "REQ-4"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-design-a-vibrant-playful-visual-theme-with-lottery-inspired-aesthetics-including-ticket-motifs-number-displays-and-engaging-color-palette-that-creates-an-exciting-gaming-atmosphere",
+      "title": "Design a vibrant, playful visual theme with lottery-inspired aesthetics including ticket motifs, number displays, and engaging color palette that creates an exciting gaming atmosphere",
+      "reqIds": [
+        "REQ-5"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-integrate-generated-lottery-themed-images-as-static-assets-in-frontend-public-assets-generated",
+      "title": "Integrate generated lottery-themed images as static assets in frontend/public/assets/generated",
+      "reqIds": [
+        "REQ-6"
+      ],
+      "version": 1
+    }
+  ],
+  "new_feature_requests": [
+    {
+      "id": "AR-1",
+      "summary": "Users can purchase lottery tickets",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-2",
+      "summary": "Users can participate in lottery drawings",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-3",
+      "summary": "Users can view lottery results",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-4",
+      "summary": "Implement backend lottery state management with ticket tracking, drawing rounds, and winner selection logic in the main actor",
+      "reqIds": [
+        "REQ-1"
+      ],
+      "status": "pending"
+    }
+  ],
+  "projectName": "Lottery Game",
+  "clarification_mode": "instant",
+  "clarification_rounds": 0
+}

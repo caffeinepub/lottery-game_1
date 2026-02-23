@@ -1,0 +1,55 @@
+{
+  "kind": "spec_vs_diff_report",
+  "version": "1.0",
+  "generatedAt": "2026-02-22T17:56:04.462Z",
+  "summary": "The implementation provides ticket purchase functionality and viewing capabilities, but is missing the core lottery drawing mechanism (REQ-3), results viewing interface (REQ-4), and complete lottery state management (REQ-1). The visual theme (REQ-5) and image integration (REQ-6) appear partially implemented based on available evidence.",
+  "missing_requirements": [
+    {
+      "id": "REQ-1",
+      "requirement": "Backend maintains current lottery round state with drawing rounds and winner selection logic",
+      "reason": "Backend only implements ticket tracking (buyTicket, getTicket, getAllTicketsByUser). No lottery round state, drawing mechanism, winner selection logic, or persistence across upgrades is present.",
+      "evidence": [
+        "backend/main.mo"
+      ]
+    },
+    {
+      "id": "REQ-3",
+      "requirement": "Build lottery drawing mechanism to randomly select winners from purchased tickets",
+      "reason": "No drawing mechanism, winner selection function, or trigger mechanism exists in backend or frontend. The backend lacks any drawing-related methods.",
+      "evidence": [
+        "backend/main.mo",
+        "frontend/src/hooks/useQueries.ts"
+      ]
+    },
+    {
+      "id": "REQ-4",
+      "requirement": "Create results viewing interface displaying lottery outcomes, winning tickets, and drawing history",
+      "reason": "No results viewing component exists. MyTickets only shows purchased tickets, not winning status, drawing outcomes, or history. No backend methods return drawing results or winners.",
+      "evidence": [
+        "frontend/src/components/MyTickets.tsx",
+        "frontend/src/App.tsx",
+        "backend/main.mo"
+      ]
+    }
+  ],
+  "hallucinated_features": [],
+  "confidence": 0.85,
+  "changed_files": [
+    "all_files_summary.json",
+    "backend/main.mo",
+    "frontend-file-summaries.txt",
+    "frontend/index.css",
+    "frontend/index.html",
+    "frontend/src/App.tsx",
+    "frontend/src/components/MyTickets.tsx",
+    "frontend/src/components/TicketCard.tsx",
+    "frontend/src/components/TicketPurchase.tsx",
+    "frontend/src/hooks/useActor.ts",
+    "frontend/src/hooks/useInternetIdentity.ts",
+    "frontend/src/hooks/useQueries.ts",
+    "frontend/src/index.css",
+    "frontend/src/main.tsx",
+    "frontend/tailwind.config.js",
+    "project_state.json"
+  ]
+}

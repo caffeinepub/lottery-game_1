@@ -1,0 +1,100 @@
+{
+  "kind": "feature_evidence_report",
+  "features": [
+    {
+      "featureId": "feature-create-ticket-purchase-functionality-allowing-users-to-buy-lottery-tickets-with-unique-identifiers",
+      "featureTitle": "Create ticket purchase functionality allowing users to buy lottery tickets with unique identifiers",
+      "files": [
+        "frontend/src/App.tsx",
+        "frontend/src/components/TicketPurchase.tsx"
+      ],
+      "components": [
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-2"
+      ],
+      "confidence": "high"
+    },
+    {
+      "featureId": "feature-build-lottery-drawing-mechanism-to-randomly-select-winners-from-purchased-tickets",
+      "featureTitle": "Build lottery drawing mechanism to randomly select winners from purchased tickets",
+      "files": [
+        "frontend/src/App.tsx"
+      ],
+      "components": [
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-3"
+      ],
+      "confidence": "high"
+    },
+    {
+      "featureId": "feature-create-results-viewing-interface-displaying-lottery-outcomes-winning-tickets-and-drawing-history",
+      "featureTitle": "Create results viewing interface displaying lottery outcomes, winning tickets, and drawing history",
+      "files": [
+        "frontend/src/App.tsx",
+        "frontend/src/components/MyTickets.tsx"
+      ],
+      "components": [
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-4"
+      ],
+      "confidence": "high"
+    },
+    {
+      "featureId": "feature-design-a-vibrant-playful-visual-theme-with-lottery-inspired-aesthetics-including-ticket-motifs-number-displays-and-engaging-color-palette-that-creates-an-exciting-gaming-atmosphere",
+      "featureTitle": "Design a vibrant, playful visual theme with lottery-inspired aesthetics including ticket motifs, number displays, and engaging color palette that creates an exciting gaming atmosphere",
+      "files": [
+        "frontend/src/components/TicketCard.tsx",
+        "frontend/src/index.css",
+        "frontend/tailwind.config.js"
+      ],
+      "components": [
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-5"
+      ],
+      "confidence": "high"
+    },
+    {
+      "featureId": "feature-integrate-generated-lottery-themed-images-as-static-assets-in-frontend-public-assets-generated",
+      "featureTitle": "Integrate generated lottery-themed images as static assets in frontend/public/assets/generated",
+      "files": [
+        "frontend/src/App.tsx",
+        "frontend/src/components/TicketPurchase.tsx"
+      ],
+      "components": [
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-6"
+      ],
+      "confidence": "high"
+    }
+  ]
+}
